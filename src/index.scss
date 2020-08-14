@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;300;400;500;600&display=swap");
+
+$themes: (
+  day: (
+    background: #42b983,
+    main: white,
+  ),
+  night: (
+    background: #42b983,
+    main: white,
+  ),
+);
+
+$mainbg: rgba(230, 244, 248, 1);
+$bottombg: rgba(235, 250, 255, 0.75);
+
+html,
+body {
+  background-image: linear-gradient($mainbg, $bottombg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  display: flex;
+  div {
+    width: 50vw;
+    h1 {
+      button {
+        font-size: 2em;
+        font-family: "Advent Pro", sans-serif;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        padding: 20px 3px 20px 10px;
+        cursor: pointer;
+      }
+    }
+    #title-weather {
+      float: right;
+    }
+  }
+}
