@@ -3,23 +3,23 @@
   "name": "Weather ToDo, or Not ToDo, that is the Question!",
   "icons": [
     {
-      "src": "",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "images/icons8-sun-50.png",
+      "type": "image/png",
+      "sizes": "50x50"
     },
     {
-      "src": "",
+      "src": "images/icons8-sun-150.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "150x150"
     },
     {
-      "src": "",
+      "src": "images/icons8-sun-500.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "500x500"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#f1c40f",
+  "background_color": "#00a1ff"
 }
