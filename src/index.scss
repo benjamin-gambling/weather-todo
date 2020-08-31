@@ -49,7 +49,7 @@ body {
   div {
     width: 50vw;
     h1 {
-      padding: 20px 0px;
+      padding: 0px;
       margin: 0px;
       button {
         border-radius: 0px;
@@ -75,6 +75,7 @@ body {
   display: flex;
   text-align: center;
   font-size: 1.5em;
+  padding: 20px;
   h2 {
     margin: 0;
   }
